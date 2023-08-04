@@ -48,7 +48,7 @@ const Card = (props) => {
             <div className="relative">
 
                 {/* IMAGE OF THE CARD */}
-                <img src={course.image.url} />
+                <img src={course.image.url} alt={course.title} />
 
                 {/* LIKE WALA BUTTON AND USKA PARENT */}
                 <div className="w-[40px] h-[40px] bg-white rounded-full absolute right-2 bottom-[-12px] grid place-items-center">
