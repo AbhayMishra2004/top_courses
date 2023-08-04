@@ -15,7 +15,6 @@ const Cards = (props) => {
 
     
 
-
     // YAH SARE TYPR KE COURSES KO AIK SINGLE ARRAY MAI DAAL DETA HAI 
     function getCourses()
     {

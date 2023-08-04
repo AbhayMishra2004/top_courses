@@ -17,7 +17,7 @@ const Card = (props) => {
         if(likedCourses.includes(course.id))
         {
             // LIKED COURSES KI LIST SE REMOVE KARO 
-            setLikedCourses((prev) => prev.filter((cid) => (cid != course.id))) ; 
+            setLikedCourses((prev) => prev.filter((cid) => (cid !== course.id))) ; 
             toast.warning("like Removed") ; 
         }
         
